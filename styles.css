@@ -50,7 +50,7 @@ nav a:hover{
 section.home {
     padding-top: 30px;
     width: 100%;
-    background: url(foto/apel.png);
+    background: url(apel.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -73,7 +73,6 @@ section.contact {
 
 section.home div {
     text-align: center;
-    /* color:; */
     margin: auto;
     width: 70%;
     padding: 20px;
@@ -87,7 +86,7 @@ section.home .welcome {
 section.home a {
     color: black;
     padding: 10px 20px;
-    text-decoration: Sofia;
+    text-decoration: none;
     box-shadow: 7px 5px 5px;
     border-radius: 20px;
 }
@@ -115,6 +114,7 @@ section.product {
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 80px 0;
+    font-size: 13px;
 }
 
 section.product .container {
@@ -132,6 +132,11 @@ section.product .container .card {
     height: 400px;
     margin: 15px;
     border-radius: 10px;
+    transition: .5s;
+}
+
+section.product .container .card:hover {
+    scale: 110%;
 }
 
 section.product .container .card img {
@@ -145,6 +150,10 @@ section.product .container .card a {
     box-shadow: 0px 0px 3px;
     border-radius: 20px;
 }
+section.product .container .card a:hover{
+    background-color:crimson;
+}
+
 section.contact {
     background-color: rgb(174, 0, 0);
     padding: 80px 0;
@@ -165,10 +174,17 @@ section.contact .card {
 }
 footer{
     background-color: rgb(233, 208, 176);
-    height: 50px;
+    height: 20px;
     padding: 20px 0;
+    padding-left: 50px;
+}
+
+.medsos{
     display: flex;
     justify-content: center; 
     align-items: center;
-    padding-left: 50px;
+    gap: 50px;
+}
+.medsos a:hover{
+    background-color:azure ;
 }
