@@ -1,0 +1,174 @@
+body {
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(249, 52, 52);
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    color: white;
+    padding: 10px;
+    font-size: larger;
+}
+
+header span img {
+    height: 60px;
+}
+
+header span {
+    font-family:"Sofia", sans-serif ;
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+}
+
+header span p {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav a:hover{
+    background-color:maroon;
+}
+
+section.home {
+    padding-top: 30px;
+    width: 100%;
+    background: url(foto/apel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 600px;
+}
+
+section.product {
+    background: url("gb2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+section.contact {
+    background-color: rgb(232, 63, 63);
+    height: 600px;
+}
+
+section.home div {
+    text-align: center;
+    /* color:; */
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+}
+
+section.home .welcome {
+    padding-top: 90px;
+    font-size: 30px;
+}
+
+section.home a {
+    color: black;
+    padding: 10px 20px;
+    text-decoration: Sofia;
+    box-shadow: 7px 5px 5px;
+    border-radius: 20px;
+}
+
+section.about {
+    background-color: darkred;
+    height: 600px;
+    padding-top: 100px;
+}
+
+section.about div {
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+
+section.about img {
+    height: 200px;
+}
+
+section.product {
+    background: url("apel.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 80px 0;
+}
+
+section.product .container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+section.product .container .card {
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+    height: 400px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+section.product .container .card img {
+    width: 85%;
+}
+
+section.product .container .card a {
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.contact {
+    background-color: rgb(174, 0, 0);
+    padding: 80px 0;
+}
+section.contact .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.contact .card {
+    background-color: beige;
+    color:brown;
+    text-align: center;
+    padding: 40px 30px 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgba(219, 64, 64, 0.852);
+    width: 300px;
+}
+footer{
+    background-color: rgb(233, 208, 176);
+    height: 50px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-left: 50px;
+}
